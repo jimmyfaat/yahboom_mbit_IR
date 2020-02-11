@@ -1,6 +1,6 @@
 {
     "name": "Mbit_IR",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Extension for YahBoom m:bit IR receiver module",
     "license": "MIT",
     "dependencies": {
@@ -8,6 +8,7 @@
     },
     "files": [
         "main.ts",
+        "shims.d.ts",
         "enums.d.ts",
         "ir.cpp",
         "ReceiverIR.cpp",
